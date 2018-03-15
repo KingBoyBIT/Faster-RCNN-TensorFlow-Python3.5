@@ -24,14 +24,27 @@ This is the branch to compile Faster R-CNN on Windows. It is heavily inspired by
 I will be glad if you can contribute with a batch script to automatically download and fetch. The final structure has to look like
 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"data/VOCDevkit2007/annotations_cache"
-  
+
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"data/VOCDevkit2007/VOC2007"
-  
+
  6- Download pre-trained VGG16 from [here](http://download.tensorflow.org/models/vgg_16_2016_08_28.tar.gz) and place it as "data\imagenet_weights\vgg16.ckpt"
- 
+
  For rest of the models, please check [here](https://github.com/tensorflow/models/tree/master/research/slim#pre-trained-models)
- 
+
   7- Run train.py
-  
+
   Notify me if there is any issue found. Please note that, I have compiled cython modules with sm61 architecture (GTX 1060, 1070 etc.). Compile support for other architectures will be added. 
- 
+
+# 新尝试
+
+- 安装anaconda，TensorFlow后，到https://github.com/dBeker/Faster-RCNN-TensorFlow-Python3.5这里clone一个
+- `conda install cython` 
+- `conda install opencv`
+- `pip install easydict`
+- 一路CD到./data/coco/PythonAPI，运行：
+- `python setup.py build_ext --inplace`
+- `python setup.py build_ext install`
+- 这里可能会出现VS的编译错误，更新为2015 update3后问题解决
+- 下载VOC2007devkit，目录为data/VOCDevkit2007/VOC2007
+- 下载tf的VGG16模型到data\imagenet_weights\vgg16.ckpt
+- 目前编译没什么问题，训练找不到数据，有时间再说
