@@ -51,6 +51,10 @@
 - `python setup.py build_ext --inplace`
 - `python setup.py build_ext install`
 - 这里可能会出现VS的编译错误，更新为2015 update3后问题解决
-- 下载VOC2007devkit，目录为data/VOCDevkit2007/VOC2007
-- 下载tf的VGG16模型到data\imagenet_weights\vgg16.ckpt
-- 目前编译没什么问题，训练找不到数据，有时间再说
+- 下载VOC2007devkit，目录为data/VOCDevkit2007/VOC2007，将VOC2007直接放在data目录下面新建的VOCDevkit2007这个目录里面
+- 下载tf的VGG16模型到data\imagenet_weights\vgg16.ckpt，注意这里名字是vgg16没有下划线
+- 编译
+- cd到fasterRCNN的目录，运行activate tensorflow
+- pip install pyqt5
+- 运行python train.py
+- 修改lib\config.py中的30行，将其改为30可以简单的循环几轮，看demo是否运行成功
