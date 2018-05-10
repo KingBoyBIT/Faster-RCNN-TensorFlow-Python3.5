@@ -36,17 +36,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mnist_bp.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="mnist_bp.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TensorFlowLearningCodes/mnist_bp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mnist_CNN.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mnist_CNN.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TensorFlowLearningCodes/mnist_CNN.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="418">
@@ -931,19 +933,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TensorFlowLearningCodes/mnist_bp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TensorFlowLearningCodes/mnist_CNN.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TensorFlowLearningCodes/mnist_bp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
